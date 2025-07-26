@@ -5,7 +5,7 @@ import (
 	"time"
 )
 
-type Todo struct {
+type AuthEntry struct {
 	gorm.Model
 	TimeStamp time.Time
 	Status    bool
