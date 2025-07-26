@@ -6,7 +6,7 @@ import (
 	"github.com/nmartin867/auth-logs/models"
 )
 
-func TodosIndex(c *gin.Context) {
+func AuthEntryIndex(c *gin.Context) {
 	// Get all the entries
 	var entries []models.AuthEntry
 	initializers.DB.Find(&entries)
